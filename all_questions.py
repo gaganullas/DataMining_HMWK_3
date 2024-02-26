@@ -233,10 +233,10 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = " The cluster with the largest clustering entropy is Cluster 4 because it has a more balanced distribution of objects across different classes compared to the other clusters."
 
     # type: string
     answers["(b)"] = ""
