@@ -344,25 +344,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = "No"
+    answers["(a) Figure (a)"] = "no"
 
     # type: string
-    answers["(a) Figure (b)"] = "Yes"
+    answers["(a) Figure (b)"] = "yes"
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "The points in the nose, eyes, and mouth are much closer together than the points between these areas."
 
     # type: string
-    answers["(b) Figure (a)"] = "No"
+    answers["(b) Figure (a)"] = "no"
 
     # type: string
-    answers["(b) Figure (b)"] = "No"
+    answers["(b) Figure (b)"] = "yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "K-means may partition data based on overall density in both scenarios, lacking specificity to identify distinct nose, eyes, and mouth patterns amidst surrounding facial regions"
+    answers["(b) explain"] = " K-means would find the nose, eyes, and mouth, but the lower density points would also be included"
 
     # type: string
-    answers["(c)"] = "Gaussian Mixture Models"
+    answers["(c)"] = "Transform the density values by computing their reciprocals and then apply DBSCAN using these transformed densities"
 
     return answers
 
