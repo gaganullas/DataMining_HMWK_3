@@ -194,7 +194,7 @@ def question6():
     answers["(a) noise"] = {'A','H'}
 
     # type: set
-    answers["(b) cluster 1"] = {'B','C','E','F'}
+    answers["(b) cluster 1"] = {'B','C','E','F','G','E'}
 
     # type: set
     answers["(b) cluster 2"] = {'I','J','L','M' }
