@@ -97,14 +97,17 @@ def question2():
 def question3():
     answers = {}
 
-    # type: a string that evaluates to a float
-    answers["(a) SSE"] = 7.5
+    string_number = "0.00"
+    
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = 7.5
+    answers["(a) SSE"] = float(string_number)
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = 7.5
+    answers["(b) SSE"] = float(string_number)
+
+    # type: a string that evaluates to a float
+    answers["(c) SSE"] = float(string_number)
 
     return answers
 
