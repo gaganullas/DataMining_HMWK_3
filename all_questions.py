@@ -8,10 +8,10 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Agglomerative hierarchical clustering merges clusters based on proximity, progressively forming a hierarchical structure and effectively mitigating the influence of outliers by grouping them with nearby points.while k-means assigns points to centroids, making it sensitive to outliers influence on centroid positions."
 
     # type: bool (True/False)
     answers["(b)"] = -1
