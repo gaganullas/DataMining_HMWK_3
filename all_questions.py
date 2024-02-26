@@ -20,10 +20,10 @@ def question1():
     answers["(b) explain"] = "In k-means, the initial placement of centroids is random, leading to varying clusterings in different runs. However, agglomerative hierarchical clustering always produces the same clustering because it follows a deterministic process of merging clusters based on proximity."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "While k-means is generally more computationally efficient and memory-friendly than agglomerative hierarchical clustering for large datasets, it's not accurate to say it's the most efficient clustering algorithm possible. Other algorithms may outperform k-means under certain conditions or have advantages in specific scenarios."
 
     # type: bool (True/False)
     answers["(d)"] = -1
