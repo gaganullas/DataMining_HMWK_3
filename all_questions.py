@@ -323,13 +323,13 @@ def question9():
     answers["(b)"] = ['Partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = ['Partitional','fuzzy','partial']
+    answers["(c)"] = ['Partitional','fuzzy','complete']
 
     # type: list
     answers["(d)"] = ['Hierarchical','overlapping','partial']
 
     # type: list
-    answers["(e)"] = ['Partitional','Exclusive','complete']
+    answers["(e)"] = ['Partitional','Exclusive','partial']
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = "It can also be hierarchical structure ,where students with similar performance levels can be grouped together"
