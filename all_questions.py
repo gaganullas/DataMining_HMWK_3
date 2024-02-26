@@ -350,13 +350,13 @@ def question10():
     answers["(a) explain"] = "The points in the nose, eyes, and mouth are much closer together than the points between these areas."
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "K-means would find the nose, eyes, and mouth, but the lower density points would also be included."
 
     # type: string
     answers["(c)"] = ""
