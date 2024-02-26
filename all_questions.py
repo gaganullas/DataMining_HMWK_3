@@ -353,10 +353,10 @@ def question10():
     answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = "Yes"
+    answers["(b) Figure (b)"] = "No"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "K-means would find the nose, eyes, and mouth, but the lower density points would also be included."
+    answers["(b) explain"] = "K-means may partition data based on overall density in both scenarios, lacking specificity to identify distinct nose, eyes, and mouth patterns amidst surrounding facial regions"
 
     # type: string
     answers["(c)"] = ""
