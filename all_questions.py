@@ -314,13 +314,13 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = ['hierarchical','overlapping','complete']
+    answers["(a)"] = ['hierarchical','overlapping','partial']
 
     # type: list
     answers["(b)"] = ['partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = ['partitional','overlapping','partial']
+    answers["(c)"] = ['partitional','fuzzy','partial']
 
     # type: list
     answers["(d)"] = ['hierarchical','overlapping','partial']
