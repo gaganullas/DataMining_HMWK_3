@@ -50,10 +50,10 @@ def question1():
     answers["(g) explain"] = "Improving cohesion (SSE) in K-means doesn't necessarily enhance separation (SSB) as they represent distinct optimization objectives. Tightening clusters reduces SSE but doesn't inherently maximize the dissimilarity between clusters."
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "When clustering data with K-means, the sum of within-cluster sum of squares (SSE) and between-cluster sum of squares (BSS) remains constant, equaling the total sum of squares (TSS)."
 
     # type: bool (True/False)
     answers["(i)"] = -1
