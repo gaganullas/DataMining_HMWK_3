@@ -26,7 +26,7 @@ def question1():
     answers["(c) explain"] = "While k-means is generally more computationally efficient and memory-friendly than agglomerative hierarchical clustering for large datasets, it's not accurate to say it's the most efficient clustering algorithm possible. Other algorithms may outperform k-means under certain conditions or have advantages in specific scenarios."
 
     # type: bool (True/False)
-    answers["(d)"] = True
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = "SSE of the clustering typically decreases.This is because splitting a cluster into two allows the centroids to better represent the data points within each smaller cluster, resulting in reduced distances between data points and their respective centroids."
@@ -44,10 +44,10 @@ def question1():
     answers["(f) explain"] = "When SSB increases, it means that the centroids are farther apart from each other, indicating more separation between the clusters."
 
     # type: bool (True/False)
-    answers["(g)"] = True
+    answers["(g)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = "Improving cohesion (SSE) in K-means doesn't necessarily enhance separation (SSB) as they represent distinct optimization objectives. Tightening clusters reduces SSE but doesn't inherently maximize the dissimilarity between clusters."
+    answers["(g) explain"] = "minimizing SSE (cohesion) is equivalent to maximizing SSB (separation)."
 
     # type: bool (True/False)
     answers["(h)"] = True
@@ -56,10 +56,10 @@ def question1():
     answers["(h) explain"] = "When clustering data with K-means, the sum of within-cluster sum of squares (SSE) and between-cluster sum of squares (BSS) remains constant, equaling the total sum of squares (TSS)."
 
     # type: bool (True/False)
-    answers["(i)"] = False
+    answers["(i)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = "Cohesion and separation are independent metrics in K-means clustering, and improving one doesn't necessarily guarantee improvement in the other."
+    answers["(i) explain"] = "minimizing cohesion is equivalent to maximizing separation"
 
     return answers
 
