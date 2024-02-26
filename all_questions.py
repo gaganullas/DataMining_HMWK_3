@@ -38,10 +38,10 @@ def question1():
     answers["(e) explain"] = "When the Sum of Squared Errors (SSE) decreases during the clustering process in K-means, it means that the data points within each cluster are getting closer to their respective centroids. This implies that the clusters are becoming more cohesive."
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "When SSB increases, it means that the centroids are farther apart from each other, indicating more separation between the clusters."
 
     # type: bool (True/False)
     answers["(g)"] = -1
