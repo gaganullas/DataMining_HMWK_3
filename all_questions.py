@@ -56,10 +56,10 @@ def question1():
     answers["(h) explain"] = "When clustering data with K-means, the sum of within-cluster sum of squares (SSE) and between-cluster sum of squares (BSS) remains constant, equaling the total sum of squares (TSS)."
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "Cohesion and separation are independent metrics in K-means clustering, and improving one doesn't necessarily guarantee improvement in the other."
 
     return answers
 
