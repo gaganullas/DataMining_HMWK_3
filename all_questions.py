@@ -239,10 +239,10 @@ def question7():
     answers["(a) explain"] = "The cluster with the largest clustering entropy is Cluster 4 because it has a more balanced distribution of objects across different classes compared to the other clusters."
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 2"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "It primarily contains objects from the Forest class, with very few objects from other classes. The dominance of one class within the cluster leads to lower entropy"
 
     return answers
 
