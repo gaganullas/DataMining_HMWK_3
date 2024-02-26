@@ -74,19 +74,19 @@ def question2():
     answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = "Testing"
+    answers["(a) explain"] = ""
 
     # type: bool (True/False)
     answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "Testing"
+    answers["(b) explain"] = ""
 
     # type: bool (True/False)
     answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = "Testing"
+    answers["(c) explain"] = ""
 
     return answers
 
@@ -99,9 +99,9 @@ def question3():
 
   
     
-
+    R = 0.5
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = float("0.00")
+    answers["(a) SSE"] = 4 * R**2
 
     # type: a string that evaluates to a float
     answers["(b) SSE"] = float("0.00")
