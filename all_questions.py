@@ -44,10 +44,10 @@ def question1():
     answers["(f) explain"] = "When SSB increases, it means that the centroids are farther apart from each other, indicating more separation between the clusters."
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "Improving cohesion (SSE) in K-means doesn't necessarily enhance separation (SSB) as they represent distinct optimization objectives. Tightening clusters reduces SSE but doesn't inherently maximize the dissimilarity between clusters."
 
     # type: bool (True/False)
     answers["(h)"] = -1
