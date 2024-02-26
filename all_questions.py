@@ -320,7 +320,7 @@ def question9():
     answers["(b)"] = ['partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ['partitional','overlapping','partial']
 
     # type: list
     answers["(d)"] = []
