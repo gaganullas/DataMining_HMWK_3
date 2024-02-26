@@ -14,10 +14,10 @@ def question1():
     answers["(a) explain"] = "Agglomerative hierarchical clustering merges clusters based on proximity, progressively forming a hierarchical structure and effectively mitigating the influence of outliers by grouping them with nearby points.while k-means assigns points to centroids, making it sensitive to outliers influence on centroid positions."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "In k-means, the initial placement of centroids is random, leading to varying clusterings in different runs. However, agglomerative hierarchical clustering always produces the same clustering because it follows a deterministic process of merging clusters based on proximity."
 
     # type: bool (True/False)
     answers["(c)"] = -1
