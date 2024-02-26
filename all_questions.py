@@ -185,19 +185,19 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set('B','C','D','E','F','G','I','J','L','M')
+    answers["(a) core"] = set(['B','C','D','E','F','G','I','J','L','M']) 
 
     # type: set
     answers["(a) boundary"] = set()
 
     # type: set
-    answers["(a) noise"] = set('A','H')
+    answers["(a) noise"] = set(['A','H'])
 
     # type: set
-    answers["(b) cluster 1"] = set('B','C','D','E','F','G')
+    answers["(b) cluster 1"] = set(['B','C','D','E','F','G'])
 
     # type: set
-    answers["(b) cluster 2"] = set('I','J','L','M')
+    answers["(b) cluster 2"] = set(['I','J','L','M'])
 
     # type: set
     answers["(b) cluster 3"] = set()
