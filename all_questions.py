@@ -161,16 +161,16 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set()
+    answers["(a)"] = set('A','B')
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Groups A and B are going to be combined because their distance, measured from the furthest right point in A to the furthest left point in B, is shorter than the distance between A and C, as well as between B and C."
 
     # type: set
-    answers["(b)"] = set()
+    answers["(b)"] = set('A','C')
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Groups A and C are going to be combined because they have the shortest complete link distance, which is measured between a boundary point of A and the farthest point in C. This distance is shorter than the complete link distances between A and B (measured from the left-most point in A to the right-most point in B) and between B and C (measured from the right-most point in B to the farthest point in C)"
 
     return answers
 
