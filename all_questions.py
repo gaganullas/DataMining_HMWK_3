@@ -359,7 +359,7 @@ def question10():
     answers["(b) explain"] = "K-means may partition data based on overall density in both scenarios, lacking specificity to identify distinct nose, eyes, and mouth patterns amidst surrounding facial regions"
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "Gaussian Mixture Models"
 
     return answers
 
