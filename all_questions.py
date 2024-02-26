@@ -77,7 +77,7 @@ def question2():
     answers["(a) explain"] = "Testing"
 
     # type: bool (True/False)
-    answers["(b)"] = True
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = "Testing"
