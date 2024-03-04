@@ -362,7 +362,7 @@ def question10():
     answers["(b) explain"] = " K-means would find the nose, eyes, and mouth, but the lower density points would also be included"
 
     # type: string
-    answers["(c)"] = "Take the reciprocal of the density as the new density and use DBSCAN."
+    answers["(c)"] = "Compute the reciprocal of the density to obtain the new density, then apply DBSCAN"
 
     return answers
 
