@@ -128,7 +128,7 @@ def question4():
     answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "the centroids in Circle B should move towards the centroid of Circle A and Circle C, due to the uniform distribution of points within each circle. As a result, after convergence, each circle should have 1 centroid, as the centroids would redistribute to balance the points in each circle."
 
     # type: int
     answers["(b) Circle (a)"] = 1
