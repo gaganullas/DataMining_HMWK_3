@@ -140,7 +140,7 @@ def question4():
     answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "A will retain its centroid due to the uniform distribution of points within the circle. Circle B, initially having two centroids, may redistribute one of its centroids towards Circle C to balance the distribution of points. Circle C, initially with no centroids, will receive one centroid from Circle B. Therefore, after convergence, each circle will have one centroid."
 
     # type: int
     answers["(c) Circle (a)"] = 0
