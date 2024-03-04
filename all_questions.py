@@ -302,7 +302,7 @@ def question8():
     answers["(b) Row 2 explain"] = "The diagonal entry is clearer, suggesting robust cohesion within this cluster. Two out of three off-diagonal entries have matching colors, indicating equidistant relationships which can be clearly seen in case of B with A and C , B is notably farther from  D. So Row 2 is Cluster B"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "The diagonal entry is clearer, suggesting robust cohesion within this cluster. Two out of three off-diagonal entries have matching colors, indicating equidistant relationships which can be clearly seen in case of C with B and D , C is notably farther from  A. So Row 3 is Cluster C"
 
     # type: explanatory string (at least four words)
     answers["(b) Row 4 explain"] = ""
