@@ -299,7 +299,7 @@ def question8():
     answers["(b) Row 1 explain"] = "All off-diagonal entries show different colors, indicating varying distances from other clusters. A cluster has varying distances from other clusters. The diagonal entry is less defined, suggesting weaker cohesion within this cluster. So it will be Cluster A."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "The diagonal entry is clearer, suggesting robust cohesion within this cluster. Two out of three off-diagonal entries have matching colors, indicating equidistant relationships which can be clearly seen in case of B with A and C , B is notably farther from  D. So Row 2 is Cluster B"
 
     # type: explanatory string (at least four words)
     answers["(b) Row 3 explain"] = ""
