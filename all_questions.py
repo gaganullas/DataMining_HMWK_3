@@ -296,7 +296,7 @@ def question8():
     answers["(b) Row 4"] = "Cluster D"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "All off-diagonal entries show different colors, indicating varying distances from other clusters. A cluster has varying distances from other clusters. The diagonal entry is less defined, suggesting weaker cohesion within this cluster. So it will be Cluster A."
 
     # type: explanatory string (at least four words)
     answers["(b) Row 2 explain"] = ""
