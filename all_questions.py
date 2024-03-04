@@ -278,7 +278,7 @@ def question8():
     answers["(a) Matrix 3"] = "Dataset Y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "Two diagonal entries exhibit increased clarity and intensity in blue color, indicating strong cohesion within clusters B and C. This uniformity suggests stronger intra-cluster relationships within these clusters"
 
     # type: explanatory string (at least four words)
     answers["(a) explain non-diag entries, Matrix 3"] = ""
