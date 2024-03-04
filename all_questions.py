@@ -263,7 +263,7 @@ def question8():
     answers["(a) explain diag entries, Matrix 1"] = "The clear and predominant blue color in each diagonal entry indicates a high level of cohesion within clusters.This implies that points within the same cluster are tightly clustered together, maintaining consistent coherence within each cluster."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
+    answers["(a) explain non-diag entries, Matrix 1"] = "Rows 1 and 3 are associated with clusters A and C, respectively, distinguished by the varying colors in the off-diagonal entries.Rows 2 and 4 correspond to clusters B and D, respectively, showing similar findings."
 
     # type: string
     answers["(a) Matrix 2"] = "Dataset X"
