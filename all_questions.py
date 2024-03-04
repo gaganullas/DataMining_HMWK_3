@@ -47,7 +47,7 @@ def question1():
     answers["(g)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = "minimizing SSE (cohesion) is equivalent to maximizing SSB (separation)."
+    answers["(g) explain"] = "Improving cohesion in k-means clustering typically leads to increased separation, as data points become more tightly clustered within their respective clusters, making the centroids more distinct from each other."
 
     # type: bool (True/False)
     answers["(h)"] = True
@@ -59,7 +59,7 @@ def question1():
     answers["(i)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = "minimizing cohesion is equivalent to maximizing separation"
+    answers["(i) explain"] = "Improving cohesion in k-means clustering typically leads to increased separation, as data points become more tightly clustered within their respective clusters, making the centroids more distinct from each other"
 
     return answers
 
