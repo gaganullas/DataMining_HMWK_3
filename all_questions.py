@@ -152,7 +152,7 @@ def question4():
     answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "Given that Circles A and B are much closer to each other, it's likely that the centroid initially in Circle A would move towards the midpoint between Circles A and B during the k-means process. Circle C, being farther away from Circle B, may not influence the redistribution of centroids as much and retains its 2 centroids."
 
     return answers
 
