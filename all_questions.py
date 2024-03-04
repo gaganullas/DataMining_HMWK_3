@@ -260,7 +260,7 @@ def question8():
     answers["(a) Matrix 1"] = "Dataset Z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "The clear and predominant blue color in each diagonal entry indicates a high level of cohesion within clusters.This implies that points within the same cluster are tightly clustered together, maintaining consistent coherence within each cluster."
 
     # type: explanatory string (at least four words)
     answers["(a) explain non-diag entries, Matrix 1"] = ""
