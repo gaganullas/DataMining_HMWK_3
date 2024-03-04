@@ -119,25 +119,25 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -149,7 +149,7 @@ def question4():
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
