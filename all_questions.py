@@ -272,7 +272,7 @@ def question8():
     answers["(a) explain diag entries, Matrix 2"] = "Diagonal entries notably exhibit clear and primarily blue characteristics, distinguishing themselves from the others. This indicates a high level of cohesion within clusters B and C"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "Rows 1 and 4, with less defined diagonal entries, display various colors, indicating differing distances from all other clusters.Rows 2 and 3, display two identical colors, indicating equidistant relationships with two clusters while maintaining a greater distance from one cluster."
 
     # type: string
     answers["(a) Matrix 3"] = "Dataset Y"
